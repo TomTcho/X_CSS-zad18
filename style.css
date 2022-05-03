@@ -1,17 +1,25 @@
 h1 {
     background-color: #faebd6;
     color: #ff0000;
+    text-indent: 10px;
 }
 
 .par1 {
     color: #a42423;
+    block-size: 4em;
+}
+
+h1 > p {
+    font-size: 1em;
+    font-weight: normal;
+    font-size: 24px;
+    block-size: 8em;
 }
 
 p {
     color: #00008f;
-}
-
-h1 > p {
-    font-size: 1em; 
-    font-weight: normal;
+    margin-block-end: 20px;
+    margin-block-start: 50px;
+    margin-inline-start: 10px;
+    text-indent: 0px;
 }
